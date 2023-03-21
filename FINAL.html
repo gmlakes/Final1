@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>plants </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        There are so many unique plants
+      </h1>
+      <h2>
+        Each beautiful in their own way
+      </h2>
+      <h3>
+       <em> Just like the Monstera Plant pictured below </em>
+      </h3>
+      <img
+        src=" https://s7d1.scene7.com/is/image/terrain/020416_PlantSpotlight_Monstera?$bulletin1044$ "
+        alt="Monstera plants"
+      />
+      <p>
+      Monstera, native to tropical regions of the Americas, 
+      is the given name out of 59 other species of flowering plants. 
+      <br> "Swiss cheese plant" is named from the Latin word for "monstrous" or "abnormal", 
+      and refers to the unusual leaves with natural holes that members of this plant family have.</br>
+      <p> 
+        <strong> 
+            More Information
+        </strong> 
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Monstera"
+        target="_blank"
+        class="learn-more"
+      >
+        Learn more on Wikipedia
+      </a>
+      <br> 
+      <button class="buy-button">
+        👉 Proper Monstera Plant Care 👈
+      </button>
+    </br>
+    <hr> 
+      <p class="footer">
+        This page was built by Gena Lakin 
+        </p>
+        <br> <span class="contact-platform">Email:</span>
+        gena.lakin@gmail.com </br>
+        <span class="contact-platform">Instagram:</span>
+        @cork.in.newyork
+         <style> 
+      body {
+  font-size: 22px;
+  background: linear-gradient(#dce067, #78dc39) 
+}
+ 
+img { display: inline;
+margin: 0;
+max-width: 100%;
+border-radius: 10px;
+ }
+ 
+h1 {color: rgb(53, 223, 107);
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 60px;
+    line-height: 30px;
+    margin: 0.1;
+    font-weight: 700; }
+
+ h2 {color:  rgb(10, 128, 48);
+    text-align: center;
+    margin: 0.1;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: 600; }
+
+h3 { color: rgb(22, 84, 43);
+    text-align: center;
+    font-size: 40px;
+    line-height: 30 px;
+    font-family: "Gill Sans", sans-serif;
+    margin: 0.1;
+    font-weight: 500;
+        }  
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0 10px;
+}
+
+    button {
+
+        display: block;
+        margin: 20px auto;
+        background: #266826;
+        color: white;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.3)
+        transition: all 200ms ease-in-out;
+    }
+
+    button:hover {
+        opacity: 0.6;
+        cursor: pointer;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: medium; 
+    }
+    
+    .learn-more { 
+    font-size: 16px;
+    color:rgb(10, 128, 48)
+    text-decoration: none;
+    }
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.header {
+  border: 20px solid #885df1;
+}
+
+.footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+  </style>
+        </a>
+      </p>
+    </div>
+     <script>
+      function buy()  {
+        let name = prompt("What is your name?");
+        let Email = prompt("What is your email address?");
+        let number = prompt ("How many plants do you have?");
+        if (name.length) 
+    alert(
+        "Thank you " + 
+        name + 
+        "! We'll be in touch by email with proper plant care for you :) " );
+    else {
+        alert("No name, your plants will shrivel up!");
+    }
+      }
+
+    let buybutton = document.querySelector(".buy-button");
+    buybutton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
